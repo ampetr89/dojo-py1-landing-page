@@ -19,6 +19,8 @@ def dojos():
 @app.route('/success')
 def success():
 	return render_template('index.html', submitted=True)
+	# this is a hack to redirect to the homepage but
+	# passing a variable
 
 
 
