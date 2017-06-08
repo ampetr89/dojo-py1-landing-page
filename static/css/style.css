@@ -1,0 +1,16 @@
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	text-decoration: underline;
+}
+
+iframe{
+	width: 80vw;
+	height: 80vh;
+}
+
+#confirmation{
+	color: green;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+
+	<h1>Welcome</h1>
+	{% if submitted %}
+		<p id="confirmation">Thank you for submitting your information! Please continue exploring our site.</p>
+	{% endif %}
+	
+	<ul>
+		<li><a href="ninjas">Ninjas page</a></li>
+		<li><a href="dojos/new">Dojo page</a></li>
+	</ul>
+</body>
+</html>
